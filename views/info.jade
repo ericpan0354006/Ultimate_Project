@@ -1,0 +1,11 @@
+extends ./layout
+
+block body
+  .container
+    h1 user info
+    h4 session : #{req.session.userEmail}
+    h3 id: #{user.id}
+    h3 email: #{user.email}
+    h3 createdAt: #{user.createdAt}
+
+block scripts
