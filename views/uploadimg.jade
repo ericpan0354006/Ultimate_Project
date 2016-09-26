@@ -1,0 +1,11 @@
+extends ./layout
+
+block body
+  .container
+    form.form-upload(action='/upload', method='post' enctype = 'multipart/form-data')
+      h2.form-signin-heading Please select your img
+      label.sr-only(for='inputEmail') Email address
+      input(type='file', name='uploadFile')
+      button.btn.btn-lg.btn-primary.btn-block(type='submit') Submit
+
+block scripts
