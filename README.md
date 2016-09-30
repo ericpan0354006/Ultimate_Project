@@ -1,2 +1,3 @@
 # Ultimate_Project
-Ultimate Ultimate Ultimate
+
+a [Sails](http://sailsjs.org) application

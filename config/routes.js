@@ -33,32 +33,8 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': {
-    view: 'index'
-  },
-
-  'post /signin': 'UserController.signin',
-  'get /login': { view: 'login' },
-  'post /signup' : 'UserController.signup',
-  'get /create' : {view : 'create'},
-  'post /delete' : 'UserController.delete',
-  'post /logout' : 'UserController.logout',
-  'get /logout' : { view : 'logout'},
-  'post /update' : 'UserController.update',
-  'get /update' : { view : 'update'},
-  'get /uploadimg':{
-    view: 'uploadimg'  // view 'uploadfile' in views directory will loaded automatically
-  },
-  'post /upload': 'UserController.upload',  // view 'uploadfile' in views directory will loaded automatically
-  'get /img' : { view : 'img'},
-  'get /assets/images/*': {
-   controller: 'FileController',
-   action: 'get'
-  },
-  'get /friend' : 'FriendController.index' ,
-  'post /friend/create' : 'FriendController.create' ,
-  'put /friend/update' : 'FriendController.update' ,
-  'delete /friend/delete/:id' : 'FriendController.delete' ,
-
+    view: 'homepage'
+  }
 
   /***************************************************************************
   *                                                                          *

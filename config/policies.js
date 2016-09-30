@@ -18,26 +18,7 @@
 
 
 module.exports.policies = {
-  '*': ['sessionAuth'],
-  'UserController': {
-    'signin': [],
-    'signup': [],
-    'delete': [],
-    'logout': [],
-    'update': [],
-    'upload': [],
-  },
-  'FileController': {
-    'get': [],
-    '_config': []
-  },
-  'FriendController' : {
-    'index':[],
-    'create':[],
-    'update':[],
-    'delete':[],
 
-  }
   /***************************************************************************
   *                                                                          *
   * Default policy for all controllers and actions (`true` allows public     *

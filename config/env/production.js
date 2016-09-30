@@ -11,23 +11,28 @@
  */
 
 module.exports = {
-  port: 2337,
+
   /***************************************************************************
    * Set the default database connection for models in the production        *
    * environment (see config/connections.js and config/models.js )           *
    ***************************************************************************/
-  models: {
-   connection: 'sqlite',
-   migrate: 'drop'
-  },
+
   // models: {
-  //   connection: 'mysql',
-  //   migrate: 'safe'
+  //   connection: 'someMysqlServer'
   // },
 
+  /***************************************************************************
+   * Set the port in the production environment to 80                        *
+   ***************************************************************************/
 
-  log: {
-    level: "info"
-  }
+  // port: 80,
+
+  /***************************************************************************
+   * Set the log level in production environment to "silent"                 *
+   ***************************************************************************/
+
+  // log: {
+  //   level: "silent"
+  // }
 
 };
