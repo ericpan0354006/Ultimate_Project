@@ -2,6 +2,10 @@ sailsProject
 ============
 
 a [Sails](http://sailsjs.org) application
+```
+npm install
+npm start
+```
 
 gem install
 -----------
