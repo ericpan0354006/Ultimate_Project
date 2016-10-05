@@ -18,7 +18,23 @@
 
 
 module.exports.policies = {
-
+  '*': ['passport', 'sessionAuth'],
+  'AuthController': {
+    '*': ['passport']
+  },
+  'UserController': {
+    'index': [],
+    'find': []
+  },
+  'DashboardController': {
+    '*': [],
+  },
+  'FriendController' : {
+    'index':[],
+    'create':[],
+    'update':[],
+    'delete':[],
+  }
   /***************************************************************************
   *                                                                          *
   * Default policy for all controllers and actions (`true` allows public     *
