@@ -12,6 +12,9 @@ npm install
 npm start
 ```
 
+## node版本要v4.4.7
+
+
 gem install
 -----------
 
