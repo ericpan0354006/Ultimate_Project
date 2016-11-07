@@ -12,6 +12,10 @@ npm install
 npm start
 ```
 
+```
+npm install babel-cli -g
+```
+
 ## node版本要v4.4.7
 
 
